@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1px">
+    <tr>
+        <td><input placeholder="draft 1" id="draft1" onchange="typeDraft1()">
+            <button onclick="sendMess1()">Send</button>
+        </td>
+        <td><input placeholder="draft 2" id="draft2" onchange="typeDraft2()">
+        <button onclick="sendMess2()">Send</button></td>
+    </tr>
+    <tr>
+        <td id="inboxThanh"></td>
+        <td id="inboxTri"></td>
+    </tr>
+    <tr>
+        <td id="sentThanh"></td>
+        <td id="sentTri"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<script src="Mobile.js"></script>
+<script src="js.js"></script>
+</body>
+</html>
